@@ -1,0 +1,32 @@
+{
+  "author":"Dan Barrick",
+  "name": "image search",
+  "version": "0.0.1",
+  "description": "What am I about?",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "mongodb": "^3.2.3",
+    "helmet": "^3.16.0",
+    "compression": "^1.7.3",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "freeCodeCamp",
+    "Google API"
+  ]
+}
